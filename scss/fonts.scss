@@ -11,7 +11,7 @@
 
 /// Atkinson Hyperlegible
 $atkinsonTypefaces: (
-	name: (#{$font-ah-regular},#{$font-ah-bold},#{$font-ah-italic},#{$font-ah-bolditalic}),
+	name: ($font-ah-regular,$font-ah-bold,$font-ah-italic,$font-ah-bolditalic),
 	weight: (normal,bold,normal,bold),
 	style: (normal,normal,italic,italic)
 );
