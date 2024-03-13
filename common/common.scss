@@ -1,0 +1,10 @@
+.topic-list .topic-list-data {
+	padding: 1rem 5px;
+}
+.topic-list-item, tr {
+	border-bottom: none;
+}
+
+.title.raw-link.raw-topic-link {
+	font-size: var(--font-up-1);
+}
