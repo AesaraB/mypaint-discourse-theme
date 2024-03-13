@@ -17,7 +17,7 @@ $atkinsonTypefaces: (
 @for $i from 1 through 4 {
 	@font-face {
 		font-family: "Atkinson Hyperlegible";
-		src: url(#{valueInMap($atkinsonTypefaces,name,$i)}.ttf');
+		src: url(#{valueInMap($atkinsonTypefaces,name,$i)});
 		font-weight: valueInMap($atkinsonTypefaces,weight,$i);
 		font-style: valueInMap($atkinsonTypefaces,style,$i);
 	}
