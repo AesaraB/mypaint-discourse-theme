@@ -1,8 +1,46 @@
+@use 'sass:map';
+@use 'sass:list';
+
+@function valueInMap($map, $key, $element) {
+	@return list.nth(map.get($map, $key), $element);
+}
+
+// Fonts
+:root {
+	--font-family: 'Atkinson Hyperlegible',Roboto,Ubuntu,Arial,Helvetica;
+}
+
+/// Atkinson Hyperlegible
+$atkinsonTypefaces: (
+	name: (#{$font-ah-regular},#{$font-ah-bold},#{$font-ah-italic},#{$font-ah-bolditalic}),
+	weight: (normal,bold,normal,bold),
+	style: (normal,normal,italic,italic)
+);
+
+@for $i from 1 through 4 {
+	@font-face {
+		font-family: "Atkinson Hyperlegible";
+		src: url(#{valueInMap($atkinsonTypefaces,name,$i)}.ttf');
+		font-weight: valueInMap($atkinsonTypefaces,weight,$i);
+		font-style: valueInMap($atkinsonTypefaces,style,$i);
+	}
+}
+
+/// Fira Code
+@font-face {
+	font-family: "Fira Code";
+	src: url($font-fc);
+	font-weight: 300 700;
+	font-style: normal;
+}
+
+// Main
+.topic-list-item {
+	border-bottom: none;
+}
+
 .topic-list .topic-list-data {
 	padding: 1rem 5px;
-}
-.topic-list-item, tr {
-	border-bottom: none;
 }
 
 .title.raw-link.raw-topic-link {

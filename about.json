@@ -8,6 +8,11 @@
 	"minimum_discourse_version": null,
 	"maximum_discourse_version": null,
 	"assets": {
+		"font-ah-regular": "assets/fonts/AtkinsonHyperlegible/AtkinsonHyperlegible-Regular.ttf",
+		"font-ah-bold": "assets/fonts/AtkinsonHyperlegible/AtkinsonHyperlegible-Bold.ttf",
+		"font-ah-italic": "assets/fonts/AtkinsonHyperlegible/AtkinsonHyperlegible-Italic.ttf",
+		"font-ah-bolditalic": "assets/fonts/AtkinsonHyperlegible/AtkinsonHyperlegible-BoldItalic.ttf",
+		"font-fc": "assets/fonts/FiraCode/FiraCode-VF.ttf"
 	},
 	"color_schemes": {
 		"Light": {
