@@ -14,7 +14,7 @@
 			"primary": "212121",
 			"secondary": "f8f8f8",
 			"tertiary": "1c7ed6",
-			"quaternary": "e45735",
+			"quaternary": "1c7ed6",
 			"header_background": "f8f8f8",
 			"header_primary": "212121",
 			"highlight": "ffff4d",
@@ -27,7 +27,7 @@
 		"Dark": {
 			"primary": "f8f8f8",
 			"secondary": "161616",
-			"tertiary": "4dabf7",
+			"tertiary": "161616",
 			"quaternary": "e45735",
 			"header_background": "161616",
 			"header_primary": "f8f8f8",
