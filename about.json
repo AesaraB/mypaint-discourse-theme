@@ -1,17 +1,45 @@
 {
-  "name": "MyPaint",
-  "component": false,
-  "license_url": "https://github.com/mypaint/discourse-theme/blob/main/LICENSE",
-  "about_url": "https://github.com/mypaint/discourse-theme/blob/main/README.md",
-  "authors": "MyPaint Project",
-  "theme_version": null,
-  "minimum_discourse_version": null,
-  "maximum_discourse_version": null,
-  "assets": {
-  },
-  "color_schemes": {
-  },
-  "modifiers": {
-  },
-  "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
+	"name": "MyPaint",
+	"component": false,
+	"license_url": "https://github.com/mypaint/discourse-theme/blob/main/LICENSE",
+	"about_url": "https://github.com/mypaint/discourse-theme/blob/main/README.md",
+	"authors": "MyPaint Project",
+	"theme_version": null,
+	"minimum_discourse_version": null,
+	"maximum_discourse_version": null,
+	"assets": {
+	},
+	"color_schemes": {
+		"Light": {
+			"primary": "212121",
+			"secondary": "f8f8f8",
+			"tertiary": "1c7ed6",
+			"quaternary": "e45735",
+			"header_background": "f8f8f8",
+			"header_primary": "212121",
+			"highlight": "ffff4d",
+			"selected": "d1f0ff",
+			"hover": "f2f2f2",
+			"danger": "c92a2a",
+			"success": "009900",
+			"love": "fa6c8d"
+		},
+		"Dark": {
+			"primary": "f8f8f8",
+			"secondary": "161616",
+			"tertiary": "4dabf7",
+			"quaternary": "e45735",
+			"header_background": "161616",
+			"header_primary": "f8f8f8",
+			"highlight": "ffff4d",
+			"selected": "d1f0ff",
+			"hover": "f2f2f2",
+			"danger": "fa5252",
+			"success": "009900",
+			"love": "fa6c8d"
+		}
+	},
+	"modifiers": {
+	},
+	"learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
 }
