@@ -1,9 +1,9 @@
 {
   "name": "MyPaint",
   "component": false,
-  "license_url": null,
-  "about_url": null,
-  "authors": null,
+  "license_url": "https://github.com/mypaint/discourse-theme/blob/main/LICENSE",
+  "about_url": "https://github.com/mypaint/discourse-theme/blob/main/README.md",
+  "authors": "MyPaint Project",
   "theme_version": null,
   "minimum_discourse_version": null,
   "maximum_discourse_version": null,
