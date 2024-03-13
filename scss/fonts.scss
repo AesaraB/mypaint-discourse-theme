@@ -19,7 +19,7 @@ $atkinsonTypefaces: (
 @for $i from 1 through 4 {
 	@font-face {
 		font-family: "Atkinson Hyperlegible";
-		src: url(#{valueInMap($atkinsonTypefaces,name,$i)});
+		src: url(#{valueInMap($atkinsonTypefaces,name,$i)}) format("opentype");
 		font-weight: valueInMap($atkinsonTypefaces,weight,$i);
 		font-style: valueInMap($atkinsonTypefaces,style,$i);
 	}
@@ -27,7 +27,7 @@ $atkinsonTypefaces: (
 
 /// Fira Code
 @font-face {
-	font-family: "Fira Code";
+	font-family: "Fira Code" format("opentype");
 	src: url($font-fc);
 	font-weight: 300 700;
 	font-style: normal;
